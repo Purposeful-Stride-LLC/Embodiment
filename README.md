@@ -61,3 +61,7 @@ Source being visible on GitHub does not grant any rights. Third-party credits ab
 ## Reporting bugs
 Please open a GitHub Issue on this repository with steps to reproduce, expected vs. actual
 behaviour, and your OS/Python version. Feedback may be used by Purposeful Stride LLC (see `LICENSE` §4).
+
+## Support
+
+If this work is useful to you, you can [buy Michael a coffee on PayPal](https://paypal.me/MichaelWuchevich680). Bug reports are just as welcome.
