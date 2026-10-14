@@ -1,0 +1,14 @@
+.venv/
+**/.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.bak*
+*.log
+bod_store/data/
+bod_store/calibration/sources/
+bod_store/calibration/overrides.log
+upstream/

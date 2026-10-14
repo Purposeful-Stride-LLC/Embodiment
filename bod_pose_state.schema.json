@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:purposeful-stride:bod:pose-state:v1",
+  "title": "BOD PoseState v1 (bod.pose.v1, InMoov-class embodiment information)",
+  "description": "One indexed embodiment record: quantized joint vector + per-servo fault mask + balance + location + provenance + checksums. Companion to BOD_EMBODIMENT_SPEC.md (living draft v0.2, 2026-10-13; renamed from WHI, BOD naming approved by the maintainers 2026-10-13). Non-commercial R&D; InMoov design (c) Gael Langevin, CC BY-NC. Hardware facts (channel names, servo refdes, limits) come from INMOOV_DESIGN_DOSSIER.md v0.2 and the local inmoov/inmoov2 clones; nothing here adds hardware facts. pose_id and joint_checksum are computed by the deterministic BOD validator, never by the LLM.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "body_profile", "calibration_id", "pose_id",
+    "joint_vector", "quantization", "fault_mask", "health",
+    "balance_profile", "location", "provenance", "checksums", "observed_at"
+  ],
+  "properties": {
+    "schema_version": { "const": "bod.pose.v1" },
+    "body_profile": {
+      "description": "Which channel list and fault-mask layout applies. finger_starter_v1 = 1 channel / 1 servo (SVO00). right_arm_v1 = 10 channels / 10 servos (SVO01-SVO10). classic31_v1 = 28 MRL channels / 31 physical servos (SVO01-SVO31). See spec section 2.2.",
+      "enum": ["finger_starter_v1", "right_arm_v1", "classic31_v1"]
+    },
+    "calibration_id": {
+      "description": "Identifier of the calibration register / MRL config set (map, rest, inverted, limits) in force. Part of the canonical payload: the same degrees under a different calibration are a different physical pose. Source of truth is dossier OPEN-Q2.",
+      "type": "string", "minLength": 1
+    },
+    "pose_id": {
+      "description": "'BP1-' + first 16 lowercase hex chars of checksums.joint_checksum (SHA-256 of the canonical payload, spec section 2.8).",
+      "type": "string", "pattern": "^BP1-[0-9a-f]{16}$"
+    },
+    "pose_name": {
+      "description": "Optional canonical library name, e.g. 'rest', 'ready', 'point_center_right', or a fault-augmented name such as 'ready+RA_offline'.",
+      "type": ["string", "null"]
+    },
+    "joint_vector": {
+      "description": "One entry per MRL channel, in the canonical order of the body_profile (spec section 2.2). Degrees are MRL INPUT-domain degrees (the units gestures use, before map()).",
+      "type": "array", "minItems": 1, "maxItems": 28,
+      "items": { "$ref": "#/$defs/joint" }
+    },
+    "quantization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["scheme", "bin_deg", "rounding"],
+      "properties": {
+        "scheme": { "enum": ["grid", "grid+detent"] },
+        "bin_deg": { "description": "Grid step in input degrees. v1 proposal = 5.", "type": "integer", "minimum": 1, "maximum": 45 },
+        "rounding": { "description": "half_up toward the nearest grid point, then clamp to the channel's input limits.", "const": "nearest_half_up_then_clamp" }
+      }
+    },
+    "fault_mask": {
+      "description": "One digit per PHYSICAL servo in refdes order of the body_profile (classic31_v1: SVO01..SVO31; right_arm_v1: SVO01..SVO10; finger_starter_v1: SVO00). Codes: 0 ok, 1 weak, 2 stuck, 3 disconnected, 4 unknown, 5 offline (intentionally disabled / de-powered), 6 absent (not installed yet).",
+      "type": "string", "pattern": "^[0-6]{1,31}$"
+    },
+    "health": {
+      "type": "object", "additionalProperties": false,
+      "required": ["limbs", "modifiers", "estop", "power_rails"],
+      "properties": {
+        "limbs": {
+          "description": "Roll-up per subassembly: worst servo code in that limb, as a word.",
+          "type": "object",
+          "propertyNames": { "enum": ["fingerStarter", "rightHand", "leftHand", "rightArm", "leftArm", "head", "torso"] },
+          "additionalProperties": { "$ref": "#/$defs/status" }
+        },
+        "modifiers": {
+          "description": "Malfunction / disrepair modifiers active on this state (spec section 7).",
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["kind", "target"],
+            "properties": {
+              "kind": { "enum": ["servo_dead", "gear_slip", "limp_limb", "asymmetric_load", "stuck_joint", "sensor_fault", "autodisabled_sag_risk", "calibration_stale"] },
+              "target": { "description": "Channel name, refdes (SVOnn) or limb name.", "type": "string" },
+              "stuck_at_deg": { "type": ["number", "null"] },
+              "delta_deg": { "description": "For gear_slip: |commanded - estimated/sensed| when measurable.", "type": ["number", "null"] },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "estop": { "description": "Physical servo-rail kill switch SW1 state (dossier 4.5, 8.2).", "enum": ["released", "engaged", "unknown"] },
+        "power_rails": {
+          "description": "Per regulator rail (dossier 8.2 refdes REG0..REG6).",
+          "type": "object",
+          "propertyNames": { "pattern": "^REG[0-6]$" },
+          "additionalProperties": { "enum": ["on", "off", "fault", "unknown"] }
+        }
+      }
+    },
+    "balance_profile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["com_class", "tip_risk", "support_note", "motion_allowed", "reasons", "model"],
+      "properties": {
+        "com_class": { "enum": ["centered", "forward", "forward_far", "lateral_left", "lateral_right", "rear", "unknown"] },
+        "tip_risk": { "enum": ["low", "med", "high", "unknown"] },
+        "support_note": { "description": "Mount / support polygon note. Classic InMoov low stomach is a pole mount (dossier 5.2); stand geometry is not yet defined (spec OPEN-W5).", "type": "string" },
+        "motion_allowed": { "type": "boolean" },
+        "reasons": { "type": "array", "items": { "type": "string" } },
+        "model": { "description": "Which balance estimator produced this. v0 = rule table with placeholder thresholds; no mass model exists yet.", "enum": ["rules_v0_placeholder", "mass_model_v1", "measured"] }
+      }
+    },
+    "location": {
+      "type": "object", "additionalProperties": false,
+      "required": ["frame", "known"],
+      "properties": {
+        "frame": { "enum": ["base", "world", "unknown"] },
+        "known": { "type": "boolean" },
+        "site_id": { "description": "Room / bay / training-cell identifier, operator-entered.", "type": ["string", "null"] },
+        "xyz_m": { "type": ["array", "null"], "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+        "yaw_deg": { "type": ["number", "null"] },
+        "source": { "enum": ["operator_entry", "fiducial", "fixture_registry", "unknown"] }
+      }
+    },
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["overall", "confidence", "encoder"],
+      "properties": {
+        "overall": { "description": "Weakest provenance among joints that are not absent/offline.", "$ref": "#/$defs/prov" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "encoder": { "description": "MRL encoder in use. Default is TimeEncoder (speed x time estimate, dossier 1.5).", "enum": ["TimeEncoder", "As5048A", "Amt203", "pot_tap", "mixed", "sim"] },
+        "source_system": { "enum": ["mrl_hardware", "mrl_jme_sim", "manual", "replay"] }
+      }
+    },
+    "checksums": {
+      "type": "object", "additionalProperties": false,
+      "required": ["algo", "canonical_payload", "joint_checksum"],
+      "properties": {
+        "algo": { "const": "sha256" },
+        "canonical_payload": { "description": "Exact UTF-8 string that was hashed (spec 2.8). Stored so any reader can re-verify.", "type": "string" },
+        "joint_checksum": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "record_checksum": { "description": "Optional SHA-256 over the whole record minus this field, for storage integrity.", "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" },
+        "sequence_checksum": { "description": "Present when this state is an expected step inside a MotionPlan (spec 8).", "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" },
+        "plan_id": { "type": ["string", "null"] },
+        "step_index": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "contact": {
+      "description": "Optional finger pressure/contact levels 0-3 per fingertip sensor (dossier 1.7: J_SensorFinger levels; thresholds must be re-measured, OPEN-Q3).",
+      "type": ["object", "null"],
+      "additionalProperties": { "type": ["integer", "null"], "minimum": 0, "maximum": 3 }
+    },
+    "observed_at": { "type": "string", "format": "date-time" },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "status": { "enum": ["ok", "weak", "stuck", "disconnected", "unknown", "offline", "absent"] },
+    "prov": { "enum": ["commanded", "estimated", "sensed", "unknown"] },
+    "joint": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "q_deg", "commanded_deg", "estimated_deg", "sensed_deg", "provenance", "confidence", "status"],
+      "properties": {
+        "name": { "description": "MRL channel name without the 'i01.' prefix, e.g. 'rightHand.index', 'head.rollNeck', 'torso.topStom'.", "type": "string", "pattern": "^(rightHand|leftHand|rightArm|leftArm|head|torso)\\.[A-Za-z]+$" },
+        "svo": { "description": "Physical servo refdes driven by this channel (dossier 8.2). Paired channels list two.", "type": "array", "items": { "type": "string", "pattern": "^SVO[0-9]{2}$" } },
+        "q_deg": { "description": "Quantized input-domain angle used in the canonical payload; null when the joint position is unknown (disconnected/offline/absent/unknown with no trustworthy estimate).", "type": ["integer", "null"] },
+        "commanded_deg": { "type": ["number", "null"] },
+        "estimated_deg": { "description": "MRL currentInputPos from the encoder in use; with TimeEncoder this is a speed x time model, not a measurement.", "type": ["number", "null"] },
+        "sensed_deg": { "description": "Only from a real sensor (AS5048A/AMT203 encoder or a future pot tap). Null on stock InMoov.", "type": ["number", "null"] },
+        "provenance": { "$ref": "#/$defs/prov" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "status": { "$ref": "#/$defs/status" },
+        "energized": { "description": "false after autoDisable idleTimeout (default 3000 ms, dossier 1.4).", "type": ["boolean", "null"] }
+      }
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "body_profile": { "const": "classic31_v1" } } },
+      "then": { "properties": { "fault_mask": { "minLength": 31, "maxLength": 31 }, "joint_vector": { "minItems": 28, "maxItems": 28 } } } },
+    { "if": { "properties": { "body_profile": { "const": "right_arm_v1" } } },
+      "then": { "properties": { "fault_mask": { "minLength": 10, "maxLength": 10 }, "joint_vector": { "minItems": 10, "maxItems": 10 } } } },
+    { "if": { "properties": { "body_profile": { "const": "finger_starter_v1" } } },
+      "then": { "properties": { "fault_mask": { "minLength": 1, "maxLength": 1 }, "joint_vector": { "minItems": 1, "maxItems": 1 } } } }
+  ]
+}

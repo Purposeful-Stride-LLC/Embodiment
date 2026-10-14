@@ -1,0 +1,14 @@
+{
+  "_comment": "All paths relative to the bod_store install dir. Override with env BOD_CONFIG, BOD_DB_PATH, BOD_SNAPSHOT_PATH, BOD_EXAMPLES_PATH, BOD_STALE_S.",
+  "db_path": "./data/bod_state.db",
+  "nova_snapshot_path": "./data/nova_snapshot.db",
+  "nova_snapshot_note": "OPEN-18(a): NOVA reads ONLY this file (mode=ro&immutable=1). Written by the writer (SimStore commits / write_snapshot). Missing/unreadable/corrupt => snapshot_* status, state_stale HOLD, no motion. Env BOD_SNAPSHOT_PATH.",
+  "examples_path": "../bod_pose_state.examples.json",
+  "stale_after_s": 5.0,
+  "events_retention_days": null,
+  "events_retention_note": "PLACEHOLDER retention policy (spec \u00a76.2 S3); purge_events() is a no-op until set",
+  "calibration_limits_note": "Built at load time from calibration/register.json (mrl_default, verified=false) with calibration/measured.json overrides (pure read; OPEN-17). Operator apply_overrides writes calibration/overrides.log. Unapplied measured overrides are flagged in the status block. head.rollNeck/torso.midStom absent (OPEN-W9); torso.lowStom excluded (OPEN-W10). A joint or calibration_id with no entry => goal refused.",
+  "calibration_register": "./calibration/register.json",
+  "calibration_measured": "./calibration/measured.json",
+  "calibration_override_log": "./calibration/overrides.log"
+}

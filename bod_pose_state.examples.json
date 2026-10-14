@@ -1,0 +1,3132 @@
+[
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-ddcab2230df85dcc",
+    "pose_name": "rest",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000000000000000000660000066",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "ok",
+        "leftHand": "ok",
+        "leftArm": "ok",
+        "head": "ok",
+        "torso": "ok"
+      },
+      "modifiers": [],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "centered",
+      "tip_risk": "low",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": true,
+      "reasons": [
+        "all joints at configured rest",
+        "no load",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.6,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000000000000000000000660000066\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":90,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":0,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":30,\"leftHand.index\":0,\"leftHand.majeure\":0,\"leftHand.pinky\":0,\"leftHand.ringFinger\":0,\"leftHand.thumb\":0,\"leftHand.wrist\":90,\"rightArm.bicep\":0,\"rightArm.omoplate\":10,\"rightArm.rotate\":90,\"rightArm.shoulder\":30,\"rightHand.index\":0,\"rightHand.majeure\":0,\"rightHand.pinky\":0,\"rightHand.ringFinger\":0,\"rightHand.thumb\":0,\"rightHand.wrist\":90,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "ddcab2230df85dcc873fd89eb83dfa88160791ababa9d0a51cd9992e85a8ac4a",
+      "record_checksum": "68af9a079c16656f8696a6b6a2053e812bcc49bf3164cf135fd246a0f92c9bd9",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "All servos at InMoov2FullStart.py setRest() values; fingers rest 2 -> q 0. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-fbc3f1b50533bda4",
+    "pose_name": "ready",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 50,
+        "commanded_deg": 50,
+        "estimated_deg": 50,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 100,
+        "commanded_deg": 100,
+        "estimated_deg": 100,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 20,
+        "commanded_deg": 20,
+        "estimated_deg": 20,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": 25,
+        "commanded_deg": 25,
+        "estimated_deg": 25,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 20,
+        "commanded_deg": 20,
+        "estimated_deg": 20,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 130,
+        "commanded_deg": 130,
+        "estimated_deg": 130,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 65,
+        "commanded_deg": 65,
+        "estimated_deg": 65,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 75,
+        "commanded_deg": 75,
+        "estimated_deg": 75,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000000000000000000660000066",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "ok",
+        "leftHand": "ok",
+        "leftArm": "ok",
+        "head": "ok",
+        "torso": "ok"
+      },
+      "modifiers": [],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "centered",
+      "tip_risk": "low",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": true,
+      "reasons": [
+        "left shoulder 75 (mid reach)",
+        "no torso lean",
+        "no load",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.6,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000000000000000000000660000066\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":90,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":65,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":75,\"leftHand.index\":180,\"leftHand.majeure\":180,\"leftHand.pinky\":180,\"leftHand.ringFinger\":180,\"leftHand.thumb\":130,\"leftHand.wrist\":90,\"rightArm.bicep\":20,\"rightArm.omoplate\":20,\"rightArm.rotate\":80,\"rightArm.shoulder\":25,\"rightHand.index\":90,\"rightHand.majeure\":90,\"rightHand.pinky\":100,\"rightHand.ringFinger\":90,\"rightHand.thumb\":50,\"rightHand.wrist\":90,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "fbc3f1b50533bda4dbe956e533dd5811e54c75af2ef1ab0a4c6a7a47563369f5",
+      "record_checksum": "4101f787889a43fb3ee172979b8467c896b072b535d1124dc7a0d1122f1f8e40",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Values from inmoov2 gestures/ready.py; torso/rollNeck/jaw/eyes not commanded by the gesture -> assumed at rest. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-c74e1f42fdf1e1f8",
+    "pose_name": "ready+RA_offline",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 50,
+        "commanded_deg": 50,
+        "estimated_deg": 50,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 100,
+        "commanded_deg": 100,
+        "estimated_deg": 100,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": null,
+        "commanded_deg": 20,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "offline",
+        "energized": false
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": null,
+        "commanded_deg": 80,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "offline",
+        "energized": false
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": null,
+        "commanded_deg": 25,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "offline",
+        "energized": false
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": null,
+        "commanded_deg": 20,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "offline",
+        "energized": false
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 130,
+        "commanded_deg": 130,
+        "estimated_deg": 130,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 65,
+        "commanded_deg": 65,
+        "estimated_deg": 65,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 75,
+        "commanded_deg": 75,
+        "estimated_deg": 75,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000005555000000000000660000066",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "offline",
+        "leftHand": "ok",
+        "leftArm": "ok",
+        "head": "ok",
+        "torso": "ok"
+      },
+      "modifiers": [
+        {
+          "kind": "limp_limb",
+          "target": "rightArm",
+          "note": "REG2 (4x HS-805BB arm rail) off; arm hangs under gravity, position unknown"
+        }
+      ],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "off",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "unknown",
+      "tip_risk": "med",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": true,
+      "reasons": [
+        "right arm unpowered, position unknown",
+        "left side + head only; no right-arm or torso edges",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.6,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000005555000000000000660000066\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":90,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":65,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":75,\"leftHand.index\":180,\"leftHand.majeure\":180,\"leftHand.pinky\":180,\"leftHand.ringFinger\":180,\"leftHand.thumb\":130,\"leftHand.wrist\":90,\"rightArm.bicep\":null,\"rightArm.omoplate\":null,\"rightArm.rotate\":null,\"rightArm.shoulder\":null,\"rightHand.index\":90,\"rightHand.majeure\":90,\"rightHand.pinky\":100,\"rightHand.ringFinger\":90,\"rightHand.thumb\":50,\"rightHand.wrist\":90,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "c74e1f42fdf1e1f88d74b30289764c5371455587d41169a2f617238b8b105393",
+      "record_checksum": "52b76070d442f69a8f551c3d81a7353f224f4cbfe783ae61b0f45856fe0cce30",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Fault-augmented variant of ready. Right hand rail REG1 still on. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-097be49a6a60666c",
+    "pose_name": "point_center_right+RS_gear_slip",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 180,
+        "commanded_deg": 180,
+        "estimated_deg": 180,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 70,
+        "commanded_deg": 71,
+        "estimated_deg": 71,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 70,
+        "commanded_deg": 69,
+        "estimated_deg": 69,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": null,
+        "commanded_deg": 58,
+        "estimated_deg": 58,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.2,
+        "status": "weak",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 25,
+        "commanded_deg": 24,
+        "estimated_deg": 24,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 80,
+        "commanded_deg": 80,
+        "estimated_deg": 80,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 15,
+        "commanded_deg": 14,
+        "estimated_deg": 14,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000010000000000000660000066",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "weak",
+        "leftHand": "ok",
+        "leftArm": "ok",
+        "head": "ok",
+        "torso": "ok"
+      },
+      "modifiers": [
+        {
+          "kind": "gear_slip",
+          "target": "rightArm.shoulder",
+          "delta_deg": null,
+          "note": "TimeEncoder reports 58 = commanded; operator/camera saw arm lower. Delta unmeasurable without a sensor."
+        }
+      ],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "forward",
+      "tip_risk": "med",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": false,
+      "reasons": [
+        "right arm extended forward",
+        "right shoulder position untrusted",
+        "freeze until operator confirms",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.2,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000000010000000000000660000066\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":0,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":0,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":30,\"leftHand.index\":80,\"leftHand.majeure\":80,\"leftHand.pinky\":80,\"leftHand.ringFinger\":80,\"leftHand.thumb\":80,\"leftHand.wrist\":15,\"rightArm.bicep\":70,\"rightArm.omoplate\":25,\"rightArm.rotate\":70,\"rightArm.shoulder\":null,\"rightHand.index\":0,\"rightHand.majeure\":180,\"rightHand.pinky\":180,\"rightHand.ringFinger\":180,\"rightHand.thumb\":180,\"rightHand.wrist\":180,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "097be49a6a60666c0ba6de5b4ed529f224736836afea6fd0df0a2e87c4f35634",
+      "record_checksum": "ea122334980fdca37ee9cf3d49916f401cbbd01db94289a0f6094119c8f5bbde",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Commanded values from inmoov2 gestures/showObject.py showToCenter(): right index 0 with other fingers 180 = point. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-2662c075d66574ae",
+    "pose_name": "rest+LB_stuck45",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 45,
+        "commanded_deg": 45,
+        "estimated_deg": 45,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.4,
+        "status": "stuck",
+        "energized": false
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000000000000200000660000066",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "ok",
+        "leftHand": "ok",
+        "leftArm": "stuck",
+        "head": "ok",
+        "torso": "ok"
+      },
+      "modifiers": [
+        {
+          "kind": "stuck_joint",
+          "target": "leftArm.bicep",
+          "stuck_at_deg": 45,
+          "note": "commands to 0 did not move it (operator-observed); servo disabled to avoid stall heating"
+        }
+      ],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "centered",
+      "tip_risk": "low",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": true,
+      "reasons": [
+        "left forearm raised, small CoM shift",
+        "all edges touching leftArm.bicep pruned",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.4,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000000000000000200000660000066\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":90,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":45,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":30,\"leftHand.index\":0,\"leftHand.majeure\":0,\"leftHand.pinky\":0,\"leftHand.ringFinger\":0,\"leftHand.thumb\":0,\"leftHand.wrist\":90,\"rightArm.bicep\":0,\"rightArm.omoplate\":10,\"rightArm.rotate\":90,\"rightArm.shoulder\":30,\"rightHand.index\":0,\"rightHand.majeure\":0,\"rightHand.pinky\":0,\"rightHand.ringFinger\":0,\"rightHand.thumb\":0,\"rightHand.wrist\":90,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "2662c075d66574aefa15b785d4c066f9765187b17a5f56ed41d5fd6e0ab2506f",
+      "record_checksum": "be16ea9c0ceb67871dfbe5bba999df1940781f11c6e72621c3af272513bf7e3d",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Stuck value is an operator observation, not a measurement. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "classic31_v1",
+    "calibration_id": "cal-classic31-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-5475e1f26c408f54",
+    "pose_name": "rest+topStom_B_dead",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftHand.thumb",
+        "svo": [
+          "SVO11"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.index",
+        "svo": [
+          "SVO12"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.majeure",
+        "svo": [
+          "SVO13"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.ringFinger",
+        "svo": [
+          "SVO14"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.pinky",
+        "svo": [
+          "SVO15"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 2,
+        "estimated_deg": 2,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftHand.wrist",
+        "svo": [
+          "SVO16"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.bicep",
+        "svo": [
+          "SVO17"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.rotate",
+        "svo": [
+          "SVO18"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "leftArm.shoulder",
+        "svo": [
+          "SVO19"
+        ],
+        "q_deg": 30,
+        "commanded_deg": 30,
+        "estimated_deg": 30,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "leftArm.omoplate",
+        "svo": [
+          "SVO20"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.neck",
+        "svo": [
+          "SVO21"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "head.rothead",
+        "svo": [
+          "SVO22"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.rollNeck",
+        "svo": [
+          "SVO23",
+          "SVO24"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      },
+      {
+        "name": "head.jaw",
+        "svo": [
+          "SVO25"
+        ],
+        "q_deg": 0,
+        "commanded_deg": 0,
+        "estimated_deg": 0,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeX",
+        "svo": [
+          "SVO26"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "head.eyeY",
+        "svo": [
+          "SVO27"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": false
+      },
+      {
+        "name": "torso.topStom",
+        "svo": [
+          "SVO28",
+          "SVO29"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.4,
+        "status": "weak",
+        "energized": false
+      },
+      {
+        "name": "torso.midStom",
+        "svo": [
+          "SVO30",
+          "SVO31"
+        ],
+        "q_deg": null,
+        "commanded_deg": null,
+        "estimated_deg": null,
+        "sensed_deg": null,
+        "provenance": "unknown",
+        "confidence": 0.0,
+        "status": "absent",
+        "energized": null
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000000000000000000660001366",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "ok",
+        "leftHand": "ok",
+        "leftArm": "ok",
+        "head": "ok",
+        "torso": "weak"
+      },
+      "modifiers": [
+        {
+          "kind": "servo_dead",
+          "target": "SVO29",
+          "note": "one of the two topStom HS-805BB on a shared channel; channel half-torque (re-targeted from midStom in v0.3 because midStom is absent pending OPEN-W9)"
+        }
+      ],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on",
+        "REG3": "on",
+        "REG4": "on",
+        "REG5": "on",
+        "REG6": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "centered",
+      "tip_risk": "med",
+      "support_note": "Classic InMoov low stomach = pole mount (dossier 5.2). Stand/base footprint not yet defined (OPEN-W5).",
+      "motion_allowed": false,
+      "reasons": [
+        "torso drive degraded",
+        "no torso motion; arm motion only with reach <= mid",
+        "rollNeck + midStom absent pending OPEN-W9 calibration (not commanded)"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.4,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-classic31-nixie-fullstart-defaults-v0\",\"fm\":\"0000000000000000000000660001366\",\"j\":{\"head.eyeX\":90,\"head.eyeY\":90,\"head.jaw\":0,\"head.neck\":90,\"head.rollNeck\":null,\"head.rothead\":90,\"leftArm.bicep\":0,\"leftArm.omoplate\":10,\"leftArm.rotate\":90,\"leftArm.shoulder\":30,\"leftHand.index\":0,\"leftHand.majeure\":0,\"leftHand.pinky\":0,\"leftHand.ringFinger\":0,\"leftHand.thumb\":0,\"leftHand.wrist\":90,\"rightArm.bicep\":0,\"rightArm.omoplate\":10,\"rightArm.rotate\":90,\"rightArm.shoulder\":30,\"rightHand.index\":0,\"rightHand.majeure\":0,\"rightHand.pinky\":0,\"rightHand.ringFinger\":0,\"rightHand.thumb\":0,\"rightHand.wrist\":90,\"torso.midStom\":null,\"torso.topStom\":90},\"p\":\"classic31_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "5475e1f26c408f5405244a5399a187b8fe93e8540b1ce4433671ec0e1cdbfdd3",
+      "record_checksum": "ec3c9bba742748a491852e1f69be48a9a05b005d6821570315e24173732821f5",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": null,
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Paired servos (here topStom SVO28+SVO29) share one MRL channel, so the fault mask (per physical servo) carries information the joint vector cannot. head.rollNeck and torso.midStom marked absent until the OPEN-W9 calibration conflict is settled in a signed calibration register (Varro 2026-10-13); not commanded, excluded from all edges."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "finger_starter_v1",
+    "calibration_id": "cal-fingerstarter-testscript-map-0-180-42-160",
+    "pose_id": "BP1-ba6f827684a0cc16",
+    "pose_name": "fs_contact_stop",
+    "joint_vector": [
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO00"
+        ],
+        "q_deg": 130,
+        "commanded_deg": 180,
+        "estimated_deg": 130,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.5,
+        "status": "ok",
+        "energized": false
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0",
+    "health": {
+      "limbs": {
+        "fingerStarter": "ok"
+      },
+      "modifiers": [],
+      "estop": "released",
+      "power_rails": {
+        "REG0": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "centered",
+      "tip_risk": "low",
+      "support_note": "Finger Starter FingerTesterV2 base on bench (dossier 2.1); no tip model needed.",
+      "motion_allowed": true,
+      "reasons": [
+        "bench kit, fixture-mounted"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.5,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-fingerstarter-testscript-map-0-180-42-160\",\"fm\":\"0\",\"j\":{\"rightHand.index\":130},\"p\":\"finger_starter_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "ba6f827684a0cc164275813cd4d8b7c65ed3d3b0ab6d2781c3cd8e962033d97a",
+      "record_checksum": "0f549f90c6748fc2623c265ce2e7c17156b183c5b143b9a8f930ea8464b61b3a",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": {
+      "rightHand.index": 2
+    },
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Commanded close 180; fingertip sensor level 2 triggered servo.stop()+disable() per J_SensorFinger logic. Estimate 130 is TimeEncoder position at stop time; contact corroborates that the finger is touching something."
+  },
+  {
+    "schema_version": "bod.pose.v1",
+    "body_profile": "right_arm_v1",
+    "calibration_id": "cal-rightarm-nixie-fullstart-defaults-v0",
+    "pose_id": "BP1-968efdbe025b4664",
+    "pose_name": "ra_hold_object",
+    "joint_vector": [
+      {
+        "name": "rightHand.thumb",
+        "svo": [
+          "SVO01"
+        ],
+        "q_deg": 120,
+        "commanded_deg": 120,
+        "estimated_deg": 120,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.index",
+        "svo": [
+          "SVO02"
+        ],
+        "q_deg": 120,
+        "commanded_deg": 120,
+        "estimated_deg": 120,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.majeure",
+        "svo": [
+          "SVO03"
+        ],
+        "q_deg": 120,
+        "commanded_deg": 120,
+        "estimated_deg": 120,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.ringFinger",
+        "svo": [
+          "SVO04"
+        ],
+        "q_deg": 120,
+        "commanded_deg": 120,
+        "estimated_deg": 120,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.pinky",
+        "svo": [
+          "SVO05"
+        ],
+        "q_deg": 120,
+        "commanded_deg": 120,
+        "estimated_deg": 120,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightHand.wrist",
+        "svo": [
+          "SVO06"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.bicep",
+        "svo": [
+          "SVO07"
+        ],
+        "q_deg": 45,
+        "commanded_deg": 45,
+        "estimated_deg": 45,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.rotate",
+        "svo": [
+          "SVO08"
+        ],
+        "q_deg": 90,
+        "commanded_deg": 90,
+        "estimated_deg": 90,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.shoulder",
+        "svo": [
+          "SVO09"
+        ],
+        "q_deg": 60,
+        "commanded_deg": 60,
+        "estimated_deg": 60,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      },
+      {
+        "name": "rightArm.omoplate",
+        "svo": [
+          "SVO10"
+        ],
+        "q_deg": 10,
+        "commanded_deg": 10,
+        "estimated_deg": 10,
+        "sensed_deg": null,
+        "provenance": "estimated",
+        "confidence": 0.6,
+        "status": "ok",
+        "energized": true
+      }
+    ],
+    "quantization": {
+      "scheme": "grid+detent",
+      "bin_deg": 5,
+      "rounding": "nearest_half_up_then_clamp"
+    },
+    "fault_mask": "0000000000",
+    "health": {
+      "limbs": {
+        "rightHand": "ok",
+        "rightArm": "ok"
+      },
+      "modifiers": [
+        {
+          "kind": "asymmetric_load",
+          "target": "rightHand",
+          "note": "object mass unknown; contact levels 2-3 on 4 fingers"
+        }
+      ],
+      "estop": "released",
+      "power_rails": {
+        "REG1": "on",
+        "REG2": "on"
+      }
+    },
+    "balance_profile": {
+      "com_class": "forward",
+      "tip_risk": "med",
+      "support_note": "Arm-only bench rig; fixture geometry not yet defined (OPEN-W5).",
+      "motion_allowed": true,
+      "reasons": [
+        "payload in hand at mid reach",
+        "max velocity halved",
+        "no shoulder raise above 90 while loaded"
+      ],
+      "model": "rules_v0_placeholder"
+    },
+    "location": {
+      "frame": "base",
+      "known": false,
+      "site_id": null,
+      "xyz_m": null,
+      "yaw_deg": null,
+      "source": "unknown"
+    },
+    "provenance": {
+      "overall": "estimated",
+      "confidence": 0.6,
+      "encoder": "TimeEncoder",
+      "source_system": "mrl_hardware"
+    },
+    "checksums": {
+      "algo": "sha256",
+      "canonical_payload": "{\"cal\":\"cal-rightarm-nixie-fullstart-defaults-v0\",\"fm\":\"0000000000\",\"j\":{\"rightArm.bicep\":45,\"rightArm.omoplate\":10,\"rightArm.rotate\":90,\"rightArm.shoulder\":60,\"rightHand.index\":120,\"rightHand.majeure\":120,\"rightHand.pinky\":120,\"rightHand.ringFinger\":120,\"rightHand.thumb\":120,\"rightHand.wrist\":90},\"p\":\"right_arm_v1\",\"q\":\"grid5\",\"v\":\"bod.pose.v1\"}",
+      "joint_checksum": "968efdbe025b4664f4297d5f276afbe1b8ff0d9dee8cdd9b8342736e1d4fd85e",
+      "record_checksum": "4b1a23ade1061a674930e088473878d4800cbebe820344ca9f47957453199c39",
+      "sequence_checksum": null,
+      "plan_id": null,
+      "step_index": null
+    },
+    "contact": {
+      "rightHand.thumb": 2,
+      "rightHand.index": 3,
+      "rightHand.majeure": 2,
+      "rightHand.ringFinger": 2,
+      "rightHand.pinky": 0
+    },
+    "observed_at": "2026-10-13T06:50:00Z",
+    "notes": "Values are illustrative, not from a gesture file."
+  }
+]

@@ -1,0 +1,3 @@
+{
+ "_comment": "Measured overrides: {calibration_id: {joint: {min?, max?, rest?, measured_by, date, verified?}}}. Readers merge these into limits without writing. Operator apply (calibration/apply_overrides.py) validates and appends each event to overrides.log with an event_id (no dedupe). Empty = no bench measurements yet (sim only)."
+}
